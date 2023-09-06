@@ -33,7 +33,8 @@ export default {
   methods: {
     selectAnswer(is_correct) {
       this.$emit("question_answerd", is_correct);
-    }
+    },
+    
   },
 };
 </script>
